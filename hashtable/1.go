@@ -1,10 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println(twoSum([]int{3, 2, 4}, 6))
-}
+package hashtable
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
